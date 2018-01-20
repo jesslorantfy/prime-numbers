@@ -1,0 +1,13 @@
+{
+  "name": "prime-numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mvn exec:java -Dexec.mainClass='primenumbers.App'",
+    "create": "mvn archetype:generate -DgroupId=primenumbers -DartifactId=PrimeNumbers -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false"
+  },
+  "author": "Jess Lorantfy",
+  "license": "MIT"
+}
